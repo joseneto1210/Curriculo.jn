@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    margin: 30px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #ffd900b7;
+    text-align: center;
+    border-radius: 12px 12px 0 0 ; 
+    padding: 2% 0;
+    margin: auto auto                       ;
+}
+
+header table{
+    margin: 0 auto;
+}
+
+header table td{
+    padding: 0 80px;
+}
+
+header img{
+    border-radius: 40px 10px;
+    width: 150px;
+    height: auto;
+    object-fit: scale-down;
+    border: 3px solid #bebebed2;
+}
+
+header table td h1{
+    font-size: 2.5em;
+    color: #fffffff3;
+    font-weight: bold;
+}
+header table td h5{
+    font-size: 1em,;
+    color: #fffffff3;
+    font-weight: normal;
+}
+nav ul{
+    margin: 0 auto;
+    background-color: #353535;
+    text-align: center;
+    padding: 2% 0;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 5%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #eec303ec;
+}   
+
+main{
+    background-color: whitesmoke;
+    padding: 2% 3%;
+}
+.curso-titulo{
+    margin: 0 12px;
+}
+.curso-subtitulo{
+    margin: 15px 30px;
+}
+.curso-conteudo{
+    margin: 0 50px;
+}
+.amarelo-claro{
+    color: #f18100; 
+}
+
+.margem{
+    margin: 0 0 0 12px;
+}
+main img{
+    /*margin: 0 0;*/
+    width: 20px;
+    height: 20px;
+    
+    padding: 0 12px 0 0;
+    /*object-fit: scale-down;*/
+}
+
+main address{
+    margin: 12px;
+}
+main a{
+    text-align:left;
+}
+main a:link{
+    line-height: 10px;
+    color:  #ff9100 ;
+    text-decoration: none;
+}
+main a:visited{
+    color:  #ff9100   ;
+    text-decoration: none;
+}
+main a:hover{
+    color: #ff3c00 ;
+    text-decoration: none;
+}
+main h1{
+    color: #ff6600ec;
+}
+
+footer{
+    background-color:  #d6a402c9;
+    color: #ffffffec;
+    padding: 1% 0;
+    border-top: 2px solid #181818cc;
+    border-radius: 0 0 12px 12px;
+    text-align: center;
+    font-weight:bold;
+}
+
+footer p{
+margin: 12px 12px;
+}
