@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
@@ -8,7 +11,7 @@ body{
 }
 
 header{
-    background-color: #00d1dcb4;
+    background-color: #ffd900b7;
     text-align: center;
     border-radius: 12px 12px 0 0 ; 
     padding: 2% 0;
@@ -28,15 +31,19 @@ header img{
     width: 150px;
     height: auto;
     object-fit: scale-down;
-    border: 3px solid #141052b2;
+    border: 3px solid #bebebed2;
 }
 
-header table tr td h1{
+header table td h1{
     font-size: 2.5em;
-    color: #202020;
+    color: #fffffff3;
     font-weight: bold;
 }
-
+header table td h5{
+    font-size: 1em,;
+    color: #fffffff3;
+    font-weight: normal;
+}
 nav ul{
     margin: 0 auto;
     background-color: #353535;
@@ -55,27 +62,64 @@ nav a{
     font-weight: bold;
 }
 nav a:hover{
-        color: #00D2DC;
-
+    color: #eec303ec;
 }   
 
 main{
     background-color: whitesmoke;
     padding: 2% 3%;
 }
-
-.azul-claro{
-    color: #02afb8; 
+.curso-titulo{
+    margin: 0 12px;
+}
+.curso-subtitulo{
+    margin: 15px 30px;
+}
+.curso-conteudo{
+    margin: 0 50px;
+}
+.amarelo-claro{
+    color: #f18100; 
 }
 
+.margem{
+    margin: 0 0 0 12px;
+}
+main img{
+    /*margin: 0 0;*/
+    width: 20px;
+    height: 20px;
+    
+    padding: 0 12px 0 0;
+    /*object-fit: scale-down;*/
+}
+
+main address{
+    margin: 12px;
+}
 main a{
-    color:  #02afb8
+    text-align:left;
 }
-
+main a:link{
+    line-height: 10px;
+    color:  #ff9100 ;
+    text-decoration: none;
+}
+main a:visited{
+    color:  #ff9100   ;
+    text-decoration: none;
+}
+main a:hover{
+    color: #ff3c00 ;
+    text-decoration: none;
+}
+main h1{
+    color: #ff6600ec;
+}
 
 footer{
-    background-color:  #02afb8;
-    color: #e0e0e0ee;
+    background-color:  #d6a402c9;
+    color: #ffffffec;
     padding: 1% 0;
     border-top: 2px solid #181818cc;
     border-radius: 0 0 12px 12px;
